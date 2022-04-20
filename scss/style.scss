@@ -2,18 +2,67 @@
     margin: 0;
     padding: 0;
 }
-body {
-    @font-face {
-        font-family: Josefin Sans;
-        src: url();
-    }
+@font-face {
+    font-family: Josefin Sans;
+    src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
 }
-.container {
-    header {
-        // width: 100%;
-        // height: 18.75rem;
-        // background-image: url(/images/bg-desktop-light.jpg);
-        // background-repeat: no-repeat;
-        // background-position: top center;
+:root {
+    --dark: #25273D;
+    --light: #FFFFFF;
+}
+body {
+    font-family: Josefin Sans;
+    .container {
+        // width: 540px;
+        header {
+            background-image: url(/images/bg-desktop-light.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            // width: 100%;
+            height: 18.75rem;
+            .header__main {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                max-width: 540px;
+                margin: 0 auto;
+                padding-top: 70px;
+                .header__main-name {
+                    h2 {
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 40px;
+                        letter-spacing: 15px;
+                        text-transform: uppercase;
+                        color: var(--light);
+                    }
+                }
+                .header__main-button {
+                    background-color: #25273D;
+                }
+            }
+            .header__main-input {
+                max-width: 540px;
+                margin: 0 20px;
+                height: 64px;
+                background-color: var(--light);
+                display: flex;
+                color: red;
+                input {
+                    outline: none;
+                    border: none;
+                    font-size: 18px;
+                    color: var(--dark);
+                    margin-left: 10px;
+                }
+                .checkbox {
+                    img {
+                        width: 30px;
+                        margin-left: 20px;
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
     }
 }
