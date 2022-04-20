@@ -24,9 +24,10 @@ body {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                max-width: 540px;
+                max-width: 640px;
                 margin: 0 auto;
                 padding-top: 70px;
+                margin-bottom: 40px;
                 .header__main-name {
                     h2 {
                         font-weight: 700;
@@ -38,28 +39,40 @@ body {
                     }
                 }
                 .header__main-button {
-                    background-color: #25273D;
+                    // background-color: #25273D;
                 }
             }
             .header__main-input {
-                max-width: 540px;
-                margin: 0 20px;
+                max-width: 640px;
+                margin: 0 auto;
                 height: 64px;
                 background-color: var(--light);
                 display: flex;
-                color: red;
+                box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+                border-radius: 5px;
+                margin-bottom: 24px;
                 input {
                     outline: none;
                     border: none;
                     font-size: 18px;
                     color: var(--dark);
                     margin-left: 10px;
+                    width: 80%;
                 }
                 .checkbox {
                     img {
-                        width: 30px;
+                        width: 24px;
                         margin-left: 20px;
-                        margin-top: 25px;
+                        margin-top: 20px;
+                    }
+                }
+            }
+            .todo {
+                width: ;
+                display: flex;
+                .check {
+                    img {
+                        width: 24px;
                     }
                 }
             }
