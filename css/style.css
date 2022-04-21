@@ -3,11 +3,29 @@
   padding: 0;
 }
 
-.container {
-  width: 100vw;
+:root {
+  --dark:  #25273D;
+  --dark-black: #171823;
+  --dark-text: #C8CBE7;
+  --white: #FFFFFF;
+  --white-text: #494C6B;
 }
 
-.container .header__background img {
-  width: 100%;
+@font-face {
+  font-family: Josefin Sans;
+  src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+.header__background {
+  background-image: url(/images/bg-desktop-light.jpg);
+  width: 100vw;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__background .main {
+  max-width: 540px;
+  font-family: Josefin Sans;
 }
 /*# sourceMappingURL=style.css.map */
