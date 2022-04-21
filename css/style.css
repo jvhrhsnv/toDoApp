@@ -3,88 +3,11 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: Josefin Sans;
-  src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
+.container {
+  width: 100vw;
 }
 
-:root {
-  --dark: #25273D;
-  --light: #FFFFFF;
-}
-
-body {
-  font-family: Josefin Sans;
-}
-
-body .container header {
-  background-image: url(/images/bg-desktop-light.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 18.75rem;
-}
-
-body .container header .header__main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 640px;
-  margin: 0 auto;
-  padding-top: 70px;
-  margin-bottom: 40px;
-}
-
-body .container header .header__main .header__main-name h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 40px;
-  letter-spacing: 15px;
-  text-transform: uppercase;
-  color: var(--light);
-}
-
-body .container header .header__main-input {
-  max-width: 640px;
-  margin: 0 auto;
-  height: 64px;
-  background-color: var(--light);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
-          box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
-  border-radius: 5px;
-  margin-bottom: 24px;
-}
-
-body .container header .header__main-input input {
-  outline: none;
-  border: none;
-  font-size: 18px;
-  color: var(--dark);
-  margin-left: 10px;
-  width: 80%;
-}
-
-body .container header .header__main-input .checkbox img {
-  width: 24px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-
-body .container header .todo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-body .container header .todo .check img {
-  width: 24px;
+.container .header__background img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
