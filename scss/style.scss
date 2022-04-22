@@ -16,11 +16,9 @@
     font-family: Josefin Sans;
     src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
 }
-body {
-    
-}
+
 .container {
-    max-width: 60vw;
+    max-width: 50vw;
     margin: 0 auto;
     // padding: 0 50px;
 }
@@ -31,7 +29,7 @@ body {
     display: none;
 }
 .header__background {
-    background-image: url(/images/bg-desktop-light.jpg);
+    background-image: url(../images/bg-desktop-light.jpg);
     width: 100vw;
     height: 300px;
     background-repeat: no-repeat;
@@ -90,7 +88,7 @@ body {
                     font-family: Josefin Sans;
                     border: none;
                     outline: none;
-                    background-color: var(--white   );
+                    background-color: var(--white);
                     font-weight: 400;
                     font-size: 18px;
                     line-height: 18px;
@@ -105,16 +103,17 @@ body {
                 margin-right: 24px;
             }
         }
-        .content {
-            .main__input {
-                .main__input-check {
-                    cursor: pointer;
-                    .input {
+        // .content {
+        //     .main__input {
+        //         .main__input-check {
+        //             cursor: pointer;
+        //             .input {
 
-                    }
-                }
-            }
-        }
+        //             }
+        //         }
+        //     }
+        // }
+
         section {
             display: flex;
             justify-content: space-around;
@@ -136,7 +135,8 @@ body {
                 width: 200px;
                 display: flex;
                 justify-content: space-between;
-                cursor: pointer;                
+                cursor: pointer;
+                margin-right: 10px;                
                 span {
                     color: var(--dark);
                     font-weight: 700;
