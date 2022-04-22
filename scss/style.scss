@@ -65,9 +65,9 @@
             background-color: var(--white);
             width: 100%;
             height: 64px;
-            box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
-            border-radius: 5px;
+            border-radius: 10px;
             color: var(--white-text);
+            // box-shadow: 2px 3px 40px rgb(210, 211, 219);
             font-weight: 400;
             font-size: 18px;
             line-height: 18px;
@@ -103,16 +103,17 @@
                 margin-right: 24px;
             }
         }
-        // .content {
-        //     .main__input {
-        //         .main__input-check {
-        //             cursor: pointer;
-        //             .input {
+        .content {
+            box-shadow: 2px 3px 40px rgb(210, 211, 219);
+            .main__input {
+                .main__input-check {
+                    cursor: pointer;
+                    .input {
 
-        //             }
-        //         }
-        //     }
-        // }
+                    }
+                }
+            }
+        }
 
         section {
             display: flex;
@@ -123,7 +124,7 @@
             height: 60px;
             font-family: Josefin Sans;
             color: var(--white-dim-text);
-            box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+            // box-shadow: 2px 3px 40px rgb(210, 211, 219);
             border-radius: 5px;
             margin-top: 10px;
             .section__left {               
