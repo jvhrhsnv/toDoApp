@@ -15,6 +15,10 @@
     font-family: Josefin Sans;
     src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
 }
+.container {
+    max-width: 540px;
+    margin: 0 auto;
+}
 .header__background {
     background-image: url(/images/bg-desktop-light.jpg);
     width: 100vw;
@@ -24,5 +28,35 @@
     .main {
         max-width: 540px;
         font-family: Josefin Sans;
+        padding-top: 70px;
+        .title {
+            display: flex;
+            justify-content: space-between;
+            .title__name {
+                margin-bottom: 40px;
+                p {
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 40px;
+                    letter-spacing: 15px;
+                    text-transform: uppercase;
+                    color: var(--white);
+                }
+            }
+        }
+        .main__input {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--white);
+            width: 100px;
+            height: 64px;
+            .main__input-check {
+                img {
+                    width: 24px;
+                }
+            }
+            .input
+        }
     }
 }

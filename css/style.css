@@ -16,6 +16,11 @@
   src: url(/fonts/JosefinSans-VariableFont_wght.ttf);
 }
 
+.container {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
 .header__background {
   background-image: url(/images/bg-desktop-light.jpg);
   width: 100vw;
@@ -27,5 +32,44 @@
 .header__background .main {
   max-width: 540px;
   font-family: Josefin Sans;
+  padding-top: 70px;
+}
+
+.header__background .main .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__background .main .title .title__name {
+  margin-bottom: 40px;
+}
+
+.header__background .main .title .title__name p {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.header__background .main .main__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__background .main .main__input .main__input-check img {
+  width: 24px;
 }
 /*# sourceMappingURL=style.css.map */
