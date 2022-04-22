@@ -7,7 +7,7 @@
     <title>To do</title>
     <script src="https://kit.fontawesome.com/a13b0b3619.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="font-awesome/css/all.css">
-    <link rel="icon" href="images/oval.png">
+    <link rel="icon" href="/images/todologo.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -35,22 +35,57 @@
             </div>
 
             <div class="content">
-                <!-- <div class="main__input">
+
+                <div class="main__input">
                     <div class="main__input-check">
                         <img src="/images/oval.png" alt="#">
                     </div>
                     <div class="input">
-                        <input type="text" placeholder=" Create a new todo…" name="text" id="text">
+                        <input type="text" disabled placeholder=" Create a new todo…" name="text" id="text">
                     </div>
-                </div> -->
+                    <hr>
+                </div>
+                <hr>
 
-                <footer>
-                   <div class="footer__left">
-                       <span></span>
+                <div class="main__input hide">
+                    <div class="main__input-check">
+                        <img src="/images/oval.png" alt="#">
+                    </div>
+                    <div class="input">
+                        <input type="text" disabled placeholder=" Create a new todo…" name="text" id="text">
+                    </div>
+                    <hr>
+                </div>
+                
+
+                <section>
+                   <div class="section__left">
+                       <span class="word">All</span> <span class="number">0</span> items
                    </div>
-                </footer>
+                   <div class="section__center">
+                        <div>
+                           All
+                        </div>
+                        <div>
+                          Active
+                        </div>
+                        <div>
+                           completed
+                        </div>
+                   </div>
+                   <div class="section__right">
+                        <p>
+                            Clear completed
+                        </p>
+                   </div>
+                </section>
             </div>
+
         </div>
+
+        <footer class="container">
+            <p>Javohir Hasanov's work</p>
+        </footer>
     </div>
 
 

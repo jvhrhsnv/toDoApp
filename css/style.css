@@ -9,6 +9,7 @@
   --dark-text: #C8CBE7;
   --white: #FFFFFF;
   --white-text: #494C6B;
+  --white-dim-text: #9495A5;
 }
 
 @font-face {
@@ -17,8 +18,17 @@
 }
 
 .container {
-  max-width: 540px;
+  max-width: 740px;
   margin: 0 auto;
+  padding: 0 50px;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
 }
 
 .header__background {
@@ -27,10 +37,16 @@
   height: 300px;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .header__background .main {
-  max-width: 800px;
   font-family: Josefin Sans;
   padding-top: 70px;
 }
@@ -57,6 +73,10 @@
   color: var(--white);
 }
 
+.header__background .main .title .title__logo {
+  cursor: pointer;
+}
+
 .header__background .main .main__input {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -73,7 +93,10 @@
   -webkit-box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
           box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
   border-radius: 5px;
-  margin-bottom: 45px;
+}
+
+.header__background .main .main__input:nth-child(1) {
+  margin-top: 45px;
 }
 
 .header__background .main .main__input .main__input-check {
@@ -100,5 +123,59 @@
   letter-spacing: -0.25px;
   color: var(--dark);
   width: 90%;
+}
+
+.header__background .main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--white);
+  width: 100%;
+  height: 60px;
+  font-family: Josefin Sans;
+  color: var(--white-dim-text);
+  -webkit-box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+          box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.header__background .main section .section__left span {
+  color: var(--dark-dim-text);
+}
+
+.header__background .main section .section__center {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  cursor: pointer;
+}
+
+.header__background .main section .section__center span {
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.header__background .main section .section__right {
+  cursor: pointer;
+}
+
+.header__background footer {
+  color: var(--dark-dim-text);
+  font-family: Josefin Sans;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
