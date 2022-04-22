@@ -190,4 +190,10 @@
   margin-top: 50px;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 90vw;
+  }
+}
 /*# sourceMappingURL=style.css.map */
