@@ -20,9 +20,9 @@ body {
     
 }
 .container {
-    max-width: 740px;
+    max-width: 60vw;
     margin: 0 auto;
-    padding: 0 50px;
+    // padding: 0 50px;
 }
 .show {
     display: block;
@@ -69,7 +69,11 @@ body {
             height: 64px;
             box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
             border-radius: 5px;
-            // padding: 0 24px;
+            color: var(--white-text);
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 18px;
+            // padding: 0 24px;        
             &:nth-child(1) {
                 margin-top: 45px;
             }
@@ -99,6 +103,16 @@ body {
             .delete {
                 cursor: pointer;
                 margin-right: 24px;
+            }
+        }
+        .content {
+            .main__input {
+                .main__input-check {
+                    cursor: pointer;
+                    .input {
+
+                    }
+                }
             }
         }
         section {

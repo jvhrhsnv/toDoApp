@@ -18,9 +18,8 @@
 }
 
 .container {
-  max-width: 740px;
+  max-width: 60vw;
   margin: 0 auto;
-  padding: 0 50px;
 }
 
 .show {
@@ -93,6 +92,10 @@
   -webkit-box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
           box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
   border-radius: 5px;
+  color: var(--white-text);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
 }
 
 .header__background .main .main__input:nth-child(1) {
@@ -128,6 +131,10 @@
 .header__background .main .main__input .delete {
   cursor: pointer;
   margin-right: 24px;
+}
+
+.header__background .main .content .main__input .main__input-check {
+  cursor: pointer;
 }
 
 .header__background .main section {
