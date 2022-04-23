@@ -67,11 +67,9 @@
             height: 64px;
             border-radius: 10px;
             color: var(--white-text);
-            // box-shadow: 2px 3px 40px rgb(210, 211, 219);
             font-weight: 400;
             font-size: 18px;
-            line-height: 18px;
-            // padding: 0 24px;        
+            line-height: 18px; 
             &:nth-child(1) {
                 margin-top: 45px;
             }
@@ -94,8 +92,7 @@
                     line-height: 18px;
                     letter-spacing: -0.25px;
                     color: var(--dark);
-                    width: 90%;
-                    
+                    width: 90%;                    
                 }
             }
             .delete {
@@ -106,11 +103,46 @@
         .content {
             box-shadow: 2px 3px 40px rgb(210, 211, 219);
             .main__input {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                background-color: var(--white);
+                width: 100%;
+                height: 64px;
+                border-radius: 10px;
+                color: var(--white-text);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 18px;
+                &:nth-child(1) {
+                    margin-top: 45px;
+                }
                 .main__input-check {
-                    cursor: pointer;
-                    .input {
-
+                    margin-left: 24px;
+                    img {
+                        width: 24px;
                     }
+                }
+                .input {
+                    margin-left: 24px;
+                    width: 1500px;               
+                    input {
+                        font-family: Josefin Sans;
+                        border: none;
+                        outline: none;
+                        background-color: var(--white);
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 18px;
+                        letter-spacing: -0.25px;
+                        color: var(--dark);
+                        width: 90%;
+                        
+                    }
+                }
+                .delete {
+                    cursor: pointer;
+                    margin-right: 24px;
                 }
             }
         }
@@ -124,9 +156,8 @@
             height: 60px;
             font-family: Josefin Sans;
             color: var(--white-dim-text);
-            // box-shadow: 2px 3px 40px rgb(210, 211, 219);
-            border-radius: 5px;
-            margin-top: 10px;
+            border-radius: 10px;
+            // margin-top: 10px;
             .section__left {               
                span {
                 color: var(--dark-dim-text);
