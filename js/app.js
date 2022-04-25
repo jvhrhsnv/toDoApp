@@ -13,11 +13,15 @@ titleLogoImg.addEventListener('click', () => {
         // document.querySelector('content').style.boxShadow = "2px 4px 40px 2px #000";
         document.querySelector('.content').style.boxShadow = "2px 4px 40px 2px #000";
         document.querySelector('footer p').style.color = "var(--white)";
-        document.querySelector('.content .main__input').style.backgroundColor = "var(--dark)";
+        document.querySelector('.main__input').style.backgroundColor = "var(--dark)";
         document.querySelector('.content').style.borderRadius = "0";
         document.querySelector('.content .main__input').style.borderRadius = "10px";
         document.querySelector('section').style.backgroundColor = "var(--dark)";
         document.querySelector('.main__input').style.backgroundColor = "var(--dark)";
+        let mainInput = document.querySelectorAll('.main__input');
+        mainInput.forEach(item => {
+            item.style.backgroundColor = "var(--dark)";
+        });
     }
     else {
         titleLogoImg.setAttribute('src', "images/icon-moon.svg");
@@ -30,10 +34,14 @@ titleLogoImg.addEventListener('click', () => {
         // document.querySelector('section').style.boxShadow = "2px 3px 40px rgb(210, 211, 219)";
         document.querySelector('.content').style.boxShadow = "2px 3px 40px rgb(210, 211, 219)";
         document.querySelector('footer p').style.color = "var(--dark)";
-        document.querySelector('.content .main__input').style.backgroundColor = "var(--white)";
+        document.querySelector('.main__input').style.backgroundColor = "var(--white)";
         document.querySelector('.content').style.borderRadius = "10px";
         document.querySelector('section').style.backgroundColor = "var(--white)";
         document.querySelector('.main__input').style.backgroundColor = "var(--white)";
-        // console.log(document.querySelector('main__input'));
+        let mainInput = document.querySelectorAll('.main__input');
+        mainInput.forEach(item => {
+            item.style.backgroundColor = "var(--white)";
+        });
     }
 });
+
