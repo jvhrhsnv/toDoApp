@@ -18,8 +18,8 @@ titleLogoImg.addEventListener('click', () => {
         document.querySelector('.content .main__input').style.borderRadius = "10px";
         document.querySelector('section').style.backgroundColor = "var(--dark)";
         document.querySelector('.main__input').style.backgroundColor = "var(--dark)";
-        let mainInput = document.querySelectorAll('.main__input');
-        mainInput.forEach(item => {
+        let mainInputText = document.querySelectorAll('.main__input');
+        mainInputText.forEach(item => {
             item.style.backgroundColor = "var(--dark)";
         });
     }
@@ -38,10 +38,17 @@ titleLogoImg.addEventListener('click', () => {
         document.querySelector('.content').style.borderRadius = "10px";
         document.querySelector('section').style.backgroundColor = "var(--white)";
         document.querySelector('.main__input').style.backgroundColor = "var(--white)";
-        let mainInput = document.querySelectorAll('.main__input');
-        mainInput.forEach(item => {
+        let mainInputText = document.querySelectorAll('.main__input');
+        mainInputText.forEach(item => {
             item.style.backgroundColor = "var(--white)";
         });
     }
 });
 
+
+
+let enter = document.querySelector('.enter'),
+    input = document.querySelector('.input');
+enter.addEventListener('click', () => {
+    
+});
