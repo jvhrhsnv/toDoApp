@@ -79,7 +79,7 @@
                     width: 24px;
                 }
             }
-            .input {
+            .input-value {
                 margin-left: 24px;
                 width: 1500px;               
                 input {
@@ -92,7 +92,8 @@
                     line-height: 18px;
                     letter-spacing: -0.25px;
                     color: var(--dark);
-                    width: 90%;                    
+                    width: 90%;
+                    height: 64px;                   
                 }
             }
             .enter {
@@ -199,15 +200,16 @@
         font-size: 20px;
     }
 }
-
-@media only screen and (max-width: 600px) {
-    .container {
-        max-width: 90vw;
-    }
-}
 .show {
     display: block;
 }
 .hide {
     display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 90vw;
+    }
 }

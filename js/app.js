@@ -1,5 +1,4 @@
 let titleLogoImg = document.querySelector('.title__logo-img');
-
 titleLogoImg.addEventListener('click', () => {
     let titleLogoSrc = document.querySelector('.title__logo-img').getAttribute('src');
     if (titleLogoSrc == "images/icon-moon.svg") {
@@ -43,12 +42,4 @@ titleLogoImg.addEventListener('click', () => {
             item.style.backgroundColor = "var(--white)";
         });
     }
-});
-
-
-
-let enter = document.querySelector('.enter'),
-    input = document.querySelector('.input');
-enter.addEventListener('click', () => {
-    
 });
