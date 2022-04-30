@@ -123,6 +123,10 @@
   margin-right: 24px;
 }
 
+.header__background .main .main__input .enter:active {
+  cursor: pointer;
+}
+
 .header__background .main .main__input .delete {
   cursor: pointer;
   margin-right: 24px;
@@ -164,7 +168,7 @@
 
 .header__background .main .content .main__input .input {
   margin-left: 24px;
-  width: 1500px;
+  width: 100%;
 }
 
 .header__background .main .content .main__input .input input {

@@ -98,6 +98,9 @@
             }
             .enter {
                 margin-right: 24px;
+                &:active {
+                    cursor: pointer;
+                }
             }
             .delete {
                 cursor: pointer;
@@ -130,7 +133,7 @@
                 }
                 .input {
                     margin-left: 24px;
-                    width: 1500px;               
+                    width: 100%;               
                     input {
                         font-family: Josefin Sans;
                         border: none;
