@@ -127,8 +127,10 @@
                 // }
                 .main__input-check {
                     margin-left: 24px;
+                    align-items: center;
                     img {
                         width: 24px;
+                        margin: auto;
                     }
                 }
                 .input {
@@ -145,7 +147,8 @@
                         letter-spacing: -0.25px;
                         color: var(--dark);
                         width: 90%;
-                        
+                        // height: 64px;
+                        padding: 0px 10px
                     }
                 }
                 .delete {
@@ -198,7 +201,7 @@
     footer {
         color: var(--dark-dim-text);
         font-family: Josefin Sans;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         margin-top: 50px;
         font-size: 20px;
     }

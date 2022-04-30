@@ -76,7 +76,11 @@ if (inputValue == "") {
 });
 
 
-let deleteItem = document.querySelectorAll('.delete');
-deleteItem.addEventListener('click', (event) => {
-    // console.log("Delete");
+let deleteItems = document.querySelectorAll('.delete');
+deleteItems.forEach(item => {
+    console.log(item);
+    item.addEventListener('click', (event) => {
+        console.log("hello");
+        event.target.parentElement.parentElement.remove();
+    });
 });
